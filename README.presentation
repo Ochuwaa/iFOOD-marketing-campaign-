@@ -1,1 +1,14 @@
 
+#lets try this 
+
+ SELECT 
+ income, kidhome, teenhome,recency, mntTotal, NumDealsPurchases, age, marital_status, education
+ FROM
+  `portfolio-project-468213.portfolio.food`
+
+WHERE AcceptedCmpOverall = 1
+AND Teenhome = 1
+and Kidhome = 1
+ORDER BY 8, 6
+  ;
+
